@@ -1,0 +1,500 @@
+    7  ls
+    8  cd Keys-pair/
+    9  ls
+   10  chmod 400 "my-jenkins--key.pem"
+   11  ec2-100-27-25-10.compute-1.amazonaws.com
+   12  ssh -i "my-jenkins--key.pem" ubuntu@ec2-100-27-25-10.compute-1.amazonaws.com
+   13  cd Downloads/
+   14  cd Keys-pair/
+   15  chmod 400 "my-jenkins--key.pem"
+   16  ssh -i "my-jenkins--key.pem" ubuntu@ec2-18-208-115-130.compute-1.amazonaws.com
+   17  ssh -i "my-jenkins--key.pem" ubuntu@ec2-18-208-115-130.compute-1.amazonaws.com
+   18  ssh -i "my-jenkins--key.pem" ubuntu@ec2-18-208-115-130.compute-1.amazonaws.com
+   19  cd Downloads/
+   20  cd Keys-pair/
+   21  ssh -i "my-jenkins--key.pem" ubuntu@ec2-18-208-115-130.compute-1.amazonaws.com
+   22  cd Downloads/
+   23  cd all-projects/
+   24  cd TF-AWS/
+   25  ls
+   26  git config --global user.name "arpita199812"
+   27  git config --global user.name "arpitasingh199812@gmail.com"
+   28  git init
+   29  cd Mini-S3-Project/
+   30  git init
+   31  git add .
+   32  git status
+   33  git commit -m "adding new project"
+   34  git remote add origin https://github.com/arpita199812/Terraform-Practice-with-Projects.git
+   35  git push origin main
+   36  git push origin main -f
+   37  git pull --rebase origin main
+   38  git push origin main -f
+   39  git push origin main
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd Mini-S3-Project/
+   44  ls
+   45  rm rf aws-ec2/
+   46  ls
+   47  git push origin main
+   48  git add .
+   49  git push origin main
+   50  git remote remove origin
+   51  git remote add origin https://github.com/arpita199812/Terraform-Practice-with-Projects.git
+   52  git push origin main
+   53  git config --global push.autoSetupRemote true
+   54  git push origin main
+   55  git push
+   56  git reset --mixed origin/mai
+   57  git reset --mixed origin/main
+   58  git branch
+   59  git checkout -b main 
+   60  git add .
+   61  git status
+   62  ls
+   63  git commit -m "adding new project"
+   64  git remote add origin https://github.com/arpita199812/Terraform-Practice-with-Projects.git
+   65  git remote remove origin
+   66  git remote add origin https://github.com/arpita199812/Terraform-Practice-with-Projects.git
+   67  git push origin main
+   68  git push origin main -f
+   69  git reflog
+   70  git reset --hard a9f6fcc
+   71  ls
+   72  cd ..
+   73  ls
+   74  cd aws-ec2/
+   75  ls
+   76  cd ..
+   77  git init
+   78  git Mini-S3-Project/
+   79  cd Mini-S3-Project/
+   80  git add .
+   81  git commit -m "adding new project"
+   82  git status
+   83  git log
+   84  git remote remove origin
+   85  git remote add origin https://github.com/arpita199812/Terraform.git
+   86  git push origin main 
+   87  cd ..
+   88  cd s3-simple-demo-project/
+   89  git add.
+   90  git add .
+   91  cd ..
+   92  git add s3-simple-demo-project/
+   93  git commit -m "adding another project on s3"
+   94  git status
+   95  git remote remove origin
+   96  git push origin main 
+   97  git remote add origin https://github.com/arpita199812/Terraform.git
+   98  git push origin main 
+   99  git push origin main -f
+  100  git pull
+  101  git push origin main -f
+  102  git fetch origin main:tmp
+  103  git rebase tmp
+  104  git branch -d main:tmp
+  105  git branch -d tmp
+  106  git branch -D tmp
+  107  git add s3-simple-demo-project/
+  108  git commit -m "adding another project on s3"
+  109  git add s3-simple-demo-project .
+  110  git commit -m "adding another project on s3"
+  111  git remote remove origin
+  112  git remote add origin https://github.com/arpita199812/Terraform.git
+  113  git push origin main -f
+  114  git pull origin main
+  115  ls
+  116  git reflog
+  117  git reset --hard 91df860
+  118  ls
+  119  git reset --hard HEAD~91df860 
+  120  git reset --hard HEAD~1
+  121  ls
+  122  git add aws-s3/
+  123  git commit -m "created s3 bucket and host static file"
+  124  git push --set upstream origin main 
+  125  git remote add origin https://github.com/arpita199812/Terraform.git
+  126  git remote remove origin
+  127  git remote add origin https://github.com/arpita199812/Terraform.git
+  128  git push --set upstream origin main 
+  129  git push --set-upstream origin main
+  130  git push --set-upstream origin main -f
+  131  git pull origin main
+  132  ls
+  133  git reflog
+  134  git reset --hard 1ef0dcc
+  135  git reset --hard HEAD~1
+  136  ls
+  137  cd Downloads/
+  138  cd all-projects/
+  139  cd TF-AWS/
+  140  ls
+  141  git reflog
+  142  git reset --hard dc09d50 
+  143  git reset --hard cf82260
+  144  ls
+  145  git reset --hard 3a3e53f 
+  146  ls
+  147  git reset --hard 6c6e118
+  148  ls
+  149  git reset --hard 22377d9
+  150  ls
+  151  git reset --hard 91df860
+  152  ls
+  153  git reset --hard 6c6e118
+  154  ls
+  155  git reset --hard 91df860
+  156  ls
+  157  git reset --hard 6c6e118
+  158  ls
+  159  git reset --hard 22377d9
+  160  ls
+  161  git reset --hard 1ef0dcc
+  162  ls
+  163  git reset --hard dc09d50 
+  164  ls
+  165  git reset --hard 22377d9
+  166  git reset --hard 6c6e118
+  167  ls
+  168  git reflog
+  169  git reset --hard 22377d9
+  170  ls
+  171  git reset --hard cf82260
+  172  ls
+  173  git reset --hard 22377d9
+  174  ls
+  175  git reset --hard ID
+  176  ls
+  177  git log
+  178  git status
+  179  git reflog
+  180  git reset --hard cf82260
+  181  ls
+  182  git reset --hard 22377d9
+  183  ls
+  184  git reset --hard 4e72235
+  185  ls
+  186  git reset --hard 1ef0dcc
+  187  ls
+  188  git reset --hard 4e72235
+  189  ls
+  190  cd Downloads/
+  191  ls
+  192  cd all-projects/
+  193  cd TF-AWS/
+  194  ls
+  195  code .
+  196  cd Downloads/
+  197  cd all-projects/
+  198  cd tf
+  199  cd TF-AWS/
+  200  vi aws-vpc/
+  201  brew install git-lfs
+  202  git lfs install
+  203  git lfs track "aws-vpc/.terraform/providers/registry.terraform.io/hashicorp/aws/5.57.0/windows_amd64/terraform-provider-aws_v5.57.0_x5.exe"
+  204  git add .gitattributes
+  205  git commit -m "Track large Terraform provider file with Git LFS"
+  206  bfg --delete-files "terraform-provider-aws_v5.57.0_x5.exe"
+  207  git reflog expire --expire=now --all && git gc --prune=now --aggressive
+  208  git push origin master --force
+  209  echo Arpita | base64
+  210  echo QXJwaXRhCg== | base64 --decode
+  211  echo Tanya | base64
+  212  echo VGFueWEK | base64 --decode
+  213  echo password123 | base64
+  214  echo cGFzc3dvcmQxMjMK | base64 --decode
+  215  ps aux --sort=-%mem | head -n 10
+  216  lsof | grep deleted
+  217  lsof
+  218  cd Downloads/
+  219  cd Keys-pair/
+  220  chmod 400 "my-jenkins--key.pem"
+  221  ssh -i "my-jenkins--key.pem" ubuntu@ec2-54-227-7-236.compute-1.amazonaws.com
+  222  ssh -i "id_rsa" ubuntu@ec2-54-91-19-55.compute-1.amazonaws.com
+  223  mv ~/Downloads/Keys-pair/my-jenkins--key.pem ~/.ssh/
+  224  chmod 400 ~/.ssh/my-jenkins--key.pem 
+  225  mv ~/Downloads/Keys-pair/my-jenkins--key.pem.pub ~/.ssh/
+  226  mv ~/.ssh/my-jenkins--key.pem ~/Downloads/Keys-pair/
+  227  cd Downloads/Keys-pair/
+  228  ls
+  229  mv ~/Downloads/Keys-pair/my-jenkins--key.pem.pub ~/.ssh/
+  230  cd ../..
+  231  mv ~/Downloads/Keys-pair/my-jenkins--key.pem.pub ~/.ssh/
+  232  mv ~/Downloads/Keys-pair/my-jenkins--key.pem ~/.ssh/
+  233  chmod 400 ~/.ssh/my-jenkins--key.pem 
+  234  cd Downloads/Keys-pair/
+  235  ls
+  236  cd ..
+  237  cd ..
+  238  ssh-keygen -y -f /c/Users/YourUsername/.ssh/my-jenkins--key.pem > /c/Users/YourUsername/.ssh/my-jenkins--key.pem.pub
+  239  hostname
+  240  mv ~/.ssh/my-jenkins--key.pem ~/Downloads/Keys-pair/
+  241  ssh-keygen -y -f /c/Users/arpit/Downloads/Keys-pair/my-jenkins--key.pem > /c/Users/arpit/.ssh/my-jenkins--key.pem.pub
+  242  chmod 400 ~/.ssh/my-jenkins--key.pem.pub
+  243  cd  /c/Users/arpit/.ssh/
+  244  chmod 400 "my-jenkins--key.pem.pem"
+  245  ssh -i "my-jenkins--key.pem.pem" ubuntu@ec2-54-90-173-26.compute-1.amazonaws.com
+  246  ls
+  247  rm -rf known_hosts.old
+  248  ls
+  249  cat known_hosts 
+  250  ls
+  251  ssh -i "my-jenkins--key.pem.pub" ubuntu@ec2-54-90-173-26.compute-1.amazonaws.com
+  252  [200~ssh-keygen -t rsa -b 4096 -C "arpita12211singh@gmail.com" -f ~/.ssh/terraform-module-key
+  253  ssh-keygen -t rsa -b 4096 -C "arpita12211singh@gmail.com" -f ~/.ssh/terraform-module-key
+  254  ls ~/.ssh/
+  255  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  256  ls ~/.ssh/
+  257  cd ~/.ssh/
+  258  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  259  ls
+  260  rm -rf my-jenkins--key.pem.pub 
+  261  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  262  cd ..
+  263  cd /
+  264  ls
+  265  cd .ssh/
+  266  cd /.ssh/
+  267  cd ~ /
+  268  cd ~/.ssh/
+  269  ls
+  270  rm -rf id_rsa
+  271  rm -rf id_rsa.pub
+  272  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  273  pwd
+  274  chmod 400 "terraform-module-key.pem"
+  275  ls
+  276  rm -rf terraform-module-key
+  277  rm -rf terraform-module-key.pub
+  278  ls
+  279  ssh-keygen -t rsa -b 4096 -C "arpita12211singh@gmail.com" -f ~/.ssh/terraform-module-key.pem
+  280  ls
+  281  chmod 400 "terraform-module-key.pem"
+  282  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  283  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  284  chmod 400 "terraform-module-key.pem"
+  285  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-167-57-211.compute-1.amazonaws.com
+  286  ls
+  287  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-83-105-231.compute-1.amazonaws.com
+  288  cd ~/.ssh/
+  289  ssh -i "terraform-module-key.pem" ubuntu@ec2-34-228-195-158.compute-1.amazonaws.com
+  290  cd ~/.ssh/
+  291  ssh -i "terraform-module-key.pem" ubuntu@ec2-54-83-105-231.compute-1.amazonaws.com
+  292  cd ~/.ssh/
+  293  ssh -i "terraform-module-key.pem" ubuntu@ec2-34-229-159-117.compute-1.amazonaws.com
+  294  cd ~/.ssh/
+  295  ssh -i "terraform-module-key.pem" ubuntu@ec2-34-228-195-158.compute-1.amazonaws.com
+  296  encode "shubham" base64
+  297  echo "Shubham" base64
+  298  history
+  299  echo Shubham | base64
+  300  echo U2h1YmhhbQo= | base64 --decode
+  301  cd Downloads/
+  302  cd Keys-pair/
+  303  chmod 400 "my-jenkins--key.pem"
+  304  ssh -i "my-jenkins--key.pem" ubuntu@ec2-54-224-49-67.compute-1.amazonaws.com
+  305  ls
+  306  ssh -i "my-jenkins--key.pem" ubuntu@ec2-54-224-49-67.compute-1.amazonaws.com
+  307  ssh -i "my-jenkins--key.pem" ubuntu@ec2-54-224-49-67.compute-1.amazonaws.com
+  308  cd Downloads/Keys-pair/
+  309  chmod 400 "my-jenkins--key.pem"
+  310  ssh -i "my-jenkins--key.pem" ubuntu@ec2-54-226-45-66.compute-1.amazonaws.com
+  311  cd Downloads/
+  312  cd Keys-pair/
+  313  ssh -i "my-jenkins--key.pem" ubuntu@ec2-107-22-155-198.compute-1.amazonaws.com
+  314  cd Downloads/Keys-pair/
+  315  ssh -i "my-jenkins--key.pem" ubuntu@ec2-107-22-155-198.compute-1.amazonaws.com
+  316  cd Downloads/
+  317  cd all-projects/
+  318  ls
+  319  cd ht/
+  320  cd ..
+  321  cd ht/
+  322  git init
+  323  git add .
+  324  git commit -m 'initial commit'
+  325  git log --follow --ht
+  326  cd ..
+  327  git log --follow --ht
+  328  cd ht/
+  329  git log --follow -- ht
+  330  git checkout -b backup-branch
+  331  git filter-branch --tree-filter 'rm -f ht' --prune-empty -- --all
+  332  pip install git-filter-repo
+  333  git filter-repo --path ht --invert-paths
+  334  git log -- ht
+  335  git filter-repo --path ht --invert-paths
+  336  git log -- ht
+  337  git filter-repo --path ht --invert-paths --force
+  338  git log -- ht
+  339  git filter-repo --path ht --invert-paths
+  340  git add .
+  341  git commit -m 'initial commit'
+  342  git status
+  343  git log
+  344  git branch
+  345  ls
+  346  cd ht/
+  347  ls
+  348  git add .
+  349  git log
+  350  git commit -m 'initial commit file'
+  351  git status
+  352  git branch
+  353  git log
+  354  git remote add origin https://github.com/arpita199812/Hyper-typer-Java-MySql-based-3-Tier-Application.git
+  355  git remote remove origin
+  356  git remote add origin https://github.com/arpita199812/Hyper-typer-Java-MySql-based-3-Tier-Application.git
+  357  git push origin main --force --all
+  358  git push origin main --f
+  359  git push origin main -f
+  360  cd c:\
+  361  ls
+  362  cd ..
+  363  cd ..
+  364  ls
+  365  cd Program Files/
+  366  cd Program Files/
+  367  ls
+  368  cd C:\Program Files\Microsoft SQL Server\80\Tools\Binn
+  369  cd C:\
+  370  cd C:\Program Files\
+  371  ls
+  372  cd Downloads/Keys-pair/
+  373  ssh -i "my-jenkins--key.pem" ubuntu@ec2-100-26-111-207.compute-1.amazonaws.com
+  374  cd Downloads/
+  375  cd Keys-pair/
+  376  ssh -i "my-jenkins--key.pem" ubuntu@ec2-3-84-201-68.compute-1.amazonaws.com
+  377  ssh -i "my-jenkins--key.pem" ubuntu@ec2-54-147-218-15.compute-1.amazonaws.com
+  378  ls
+  379  cd down
+  380  cd Downloads/
+  381  git clone https://github.com/arpita199812/Simple-Flask-Project.git
+  382  git status
+  383  cd Simple-Flask-Project/
+  384  git log --oneline
+  385  git branch develop
+  386  git checkout develop
+  387  ls
+  388  touch urls.py
+  389  touch demo.txt
+  390  git add .
+  391  git commit -m 'added two new files'
+  392  git push origin develop
+  393  git checkout main
+  394  git fetch develop
+  395  git fetch branch develop
+  396  git branch
+  397  git log --oneline
+  398  git status
+  399  git diff
+  400  git fetch origin develop
+  401  git fetch origin develop
+  402  git log --oneline
+  403  git merge develop
+  404  git status
+  405  git log --oneline
+  406  git push origin main
+  407  git checkout develop
+  408  touch demo2.txt
+  409  touch demo3.txt
+  410  git log --oneline
+  411  git commit -m 'added another two new files' 
+  412  git add .
+  413  git commit -m 'added another two new files' 
+  414  git status
+  415  git push origin develop
+  416  git checkout main
+  417  git fetch origin develop
+  418  git fetch origin
+  419  git fetch origin developx
+  420  git fetch origin develop
+  421  git fetch
+  422  git fetch origin develop
+  423  git log --oneline
+  424  git checkout develop
+  425  git fetch origin develop
+  426  git fetch
+  427  git checkout main
+  428  git pull origin develop
+  429  ls
+  430  git origin branch --delete develop
+  431  git branch --delete develop
+  432  git push origin main
+  433  git reflog
+  434  git revert --hard 1ea9d1d 
+  435  git reflog
+  436  git show 1ea9d1d 
+  437  git revert 1ea9d1d 
+  438  ls
+  439  git push origin main
+  440  git reflog
+  441  git revert a009e50 
+  442  git push origin develop
+  443  git push origin main
+  444  git log --oneline
+  445  git merge develop
+  446  git merge origin develop
+  447  git merge origin/develop
+  448  git merge origin/main
+  449  git diff
+  450  git log --graph -oneline
+  451  git log -graph --oneline
+  452  git log graph --oneline
+  453  git reflog
+  454  git show e3512e2 
+  455  git revert e3512e2 
+  456  git push origin main
+  457  git log --oneline
+  458  git revert a009e50 
+  459  git push origin main
+  460  git revert dc9d4b8
+  461  git show 33851ee
+  462  git log --oneline
+  463  git show a009e50
+  464  git show 1ea9d1d 
+  465  git show e3512e2 
+  466  git reflog
+  467  git show a009e50
+  468  git branch --delete develop
+  469  git branch
+  470  git push origin main
+  471  git origin branch --delete develop
+  472  git branch
+  473  git branch -D develop
+  474  git branch -a
+  475  git branch -d -r origin/develop
+  476  git log --online
+  477  git log --oneline
+  478  git push origin main
+  479  git commit -m 'deleted devlop branch'
+  480  git push origin main
+  481  git add .
+  482  git commit -m 'deleted devlop branch'
+  483  git push origin main
+  484  git bench 
+  485  git branch 
+  486  git status
+  487  git reflog
+  488  git revert a009e50
+  489  git show e3512e2 
+  490  git log -oneline
+  491  git log --oneline
+  492  git cherry-pick e3512e2
+  493  git push origin main
+  494  git log --oneline
+  495  git cherry main develop
+  496  git log --author="arpita"
+  497  git log -p
+  498  cd Downloads/
+  499  cd Simple-Flask-Project/
+  500  git branch -D develop
+  501  git push origin :develop
+  502  git fetch -p
+  503  script
+  504  git script
+  505  history
+  506  history > git_command_history.txt 
